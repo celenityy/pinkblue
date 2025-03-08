@@ -9,5 +9,5 @@ image-version: latest
 modules:
   - from-file: common/packages.yml
   - type: gschema-overrides
-      include:
-        - zz2-pinkblue.gschema.override
+    include:
+      - zz2-pinkblue.gschema.override
