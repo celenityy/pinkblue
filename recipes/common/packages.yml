@@ -8,6 +8,7 @@ install:
   - clamav
   - firefox
   - firefox-langpacks
+  - firejail
   - phoenix
   - real-ucode
   - thunderbird
