@@ -5,3 +5,6 @@ description: I am Iron Man.
 base-image: ghcr.io/secureblue/silverblue-main-hardened
 
 image-version: latest
+
+modules:
+  - from-file: common/packages.yml

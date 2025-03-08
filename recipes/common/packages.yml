@@ -1,0 +1,14 @@
+type: rpm-ostree
+repos:
+  - https://codeberg.org/divested/divested-release/raw/branch/master/divested-release.repo
+  - https://copr.fedorainfracloud.org/coprs/celenity/copr/repo/fedora-%OS_VERSION%/celenity-copr-fedora-%OS_VERSION%.repo
+keys:
+  - https://codeberg.org/divested/divested-release/raw/branch/master/RPM-GPG-KEY-divested
+install:
+  - clamav
+  - firefox
+  - firefox-langpacks
+  - phoenix
+  - real-ucode
+  - thunderbird
+  - dove
