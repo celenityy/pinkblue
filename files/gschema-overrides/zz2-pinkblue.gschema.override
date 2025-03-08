@@ -1,0 +1,4 @@
+# Adds Firefox back to Dock + System Monitor, Settings, and Thunderbird
+
+[org.gnome.shell]
+favorite-apps = ['org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Ptyxis.desktop', 'com.github.tchx84.Flatseal.desktop', 'org.gnome.SystemMonitor.desktop', 'io.github.flattool.Warehouse.desktop', 'org.gnome.Settings.desktop', 'net.thunderbird.Thunderbird.desktop']
