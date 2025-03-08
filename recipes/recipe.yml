@@ -11,3 +11,9 @@ modules:
   - type: gschema-overrides
     include:
       - zz2-pinkblue.gschema.override
+  - type: files
+    files:
+      - source: system/usr
+        destination: /usr
+      - source: system/etc
+        destination: /etc
